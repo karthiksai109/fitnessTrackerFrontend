@@ -42,7 +42,7 @@ It allows users to register, log in, and manage their health profile (meals, wor
 npm install
 
 
-Set up environment variables
+3.Set up environment variables
 Create a .env file inside nutrition-tracker/:
 
 VITE_API_URL=https://fitnesstrackerbackend-zzuz.onrender.com/api
@@ -50,7 +50,7 @@ VITE_API_URL=https://fitnesstrackerbackend-zzuz.onrender.com/api
 
 
 
-
+4.Run locally
 
 npm run dev
 
