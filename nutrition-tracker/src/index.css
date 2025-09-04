@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========= Custom Styles ========= */
+
+/* Smooth font across the app */
+body {
+  @apply bg-gray-50 text-gray-800 antialiased;
+  font-family: "Inter", sans-serif;
+}
+
+/* Button base style */
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition duration-200;
+}
+.btn-primary {
+  @apply bg-indigo-600 text-white hover:bg-indigo-700 shadow;
+}
+.btn-secondary {
+  @apply bg-gray-200 hover:bg-gray-300;
+}
+.btn-danger {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+/* Card style */
+.card {
+  @apply bg-white p-6 rounded-lg shadow-md border border-gray-100;
+}
+
+/* Table styling */
+.table {
+  @apply w-full border-collapse border border-gray-200;
+}
+.table th {
+  @apply bg-gray-100 text-left p-2 border border-gray-200;
+}
+.table td {
+  @apply p-2 border border-gray-200;
+}
+
+/* Form inputs */
+.input {
+  @apply w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+/* Page titles */
+.page-title {
+  @apply text-3xl font-bold mb-6 text-indigo-700;
+}
